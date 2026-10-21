@@ -20,10 +20,8 @@ import {
   Menu,
   Search,
   Settings,
-  Shield,
   ShieldAlert,
   ShieldCheck,
-  Users,
   X,
 } from 'lucide-react'
 
