@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+PH3042_Robotics_env/
+
+# Ignore massive datasets
+datasets/
+
+# Ignore YOLO training runs and heavy model weights
+runs/
+models/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
