@@ -1,13 +1,39 @@
-# Ignore Python virtual environment
+# Python virtual environments
+.venv/
+venv/
+env/
 PH3042_Robotics_env/
 
-# Ignore massive datasets
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Operating system
+.DS_Store
+
+# IDE
+.vscode/
+
+# Datasets
 datasets/
 
-# Ignore YOLO training runs and heavy model weights
+# YOLO training runs and model weights
 runs/
-models/
 
-# Ignore Python cache files
-__pycache__/
-*.pyc
+# Python logs
+*.log
+
+# Backend backups
+backend_backup/
+*_backup/
+duplicate_events_backup.json
+
+# Node dependencies and build output
+node_modules/
+dist/
